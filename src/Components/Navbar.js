@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-export class Navbar extends Component {
+export class NavBar extends Component {
   render() {
     return (
       <div>
@@ -80,4 +80,4 @@ export class Navbar extends Component {
   }
 }
 
-export default Navbar;
+export default NavBar;
