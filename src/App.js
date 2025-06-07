@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { Component } from "react";
-import NavBar from "./Components/NavBar";
+import Navbar from "./Components/NavBar";
 import News from "./Components/News";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LoadingBar from "react-top-loading-bar";
@@ -21,7 +21,7 @@ export default class App extends Component {
     return (
       <div>
         <Router>
-          <NavBar />
+          <Navbar />
 
           <LoadingBar
             height={3}
