@@ -1,10 +1,11 @@
 import "./App.css";
 import React, { Component } from "react";
-import { NavBar } from "./Components/NavBar";
+import { Navbar } from "./Components/Navbar";
 import News from "./Components/News";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LoadingBar from "react-top-loading-bar";
 import LoginRegister from "./Components/LoginRegister";
+import Learning from "./Components/learning";
 
 export default class App extends Component {
   pageSize = 5;
@@ -21,7 +22,7 @@ export default class App extends Component {
     return (
       <div>
         <Router>
-          <NavBar />
+          <Navbar />
 
           <LoadingBar
             height={3}
@@ -102,6 +103,7 @@ export default class App extends Component {
               />
             </Route>
             <Route exact path="/LoginRegister" component={LoginRegister} />
+            <Route exact path="/learningpage" component={Learning} />
           </Switch>
         </Router>
       </div>
