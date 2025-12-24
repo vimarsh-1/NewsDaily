@@ -66,11 +66,11 @@ export class Navbar extends Component {
                     Technology
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <button className="btn btn-Dark" type="submit">
                     <Link to="/LoginRegister">Login/SignUp</Link>
                   </button>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

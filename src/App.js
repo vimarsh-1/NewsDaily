@@ -5,7 +5,7 @@ import News from "./Components/News";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LoadingBar from "react-top-loading-bar";
 import LoginRegister from "./Components/LoginRegister";
-import Learning from "./Components/learning";
+// import Learning from "./Components/learning";
 
 export default class App extends Component {
   pageSize = 5;
@@ -103,7 +103,7 @@ export default class App extends Component {
               />
             </Route>
             <Route exact path="/LoginRegister" component={LoginRegister} />
-            <Route exact path="/learningpage" component={Learning} />
+            {/* <Route exact path="/learningpage" component={Learning} /> */}
           </Switch>
         </Router>
       </div>
